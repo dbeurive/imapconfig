@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "name": "dbeurive/imapconfig",
+  "description": "This package contains IMAP configurations for various email providers.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis BEURIVE",
+      "email": "beurive.beurive@gmail.com"
+    }
+  ],
+  "keywords": ["email", "imap", "configuration"],
+  "autoload": {
+    "psr-4": {
+      "dbeurive\\imapconfig\\": "src",
+      "dbeurive\\imapconfigtest\\": "tests"
+    }
+  },
+  "require-dev": {
+    "dbeurive/util": "*",
+    "symfony/console": "*"
+  },
+  "archive": {
+    "exclude": ["/tests", "/README.md"]
+  }
+}
