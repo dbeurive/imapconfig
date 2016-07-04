@@ -83,3 +83,7 @@ $imapStream = imap_open($imapConf->mailbox(), $user, $password);
 | getImapStream()  | Open an IMAP stream, as returned by the function `imap_open()`.                  | 
 | mailbox()        | Return the mailbox's specification (as used within the function `imap_open()`).  |
 
+# API
+
+See the file [Imap.php](https://github.com/dbeurive/imapconfig/blob/master/src/Imap.php) for details.
+
