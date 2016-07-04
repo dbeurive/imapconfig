@@ -23,7 +23,7 @@ From the command line:
     
 Or, within your file `composer.json`:
  
-    "require-dev": {
+    "require": {
         "dbeurive/imapconfig": "*"
     }
 
